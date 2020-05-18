@@ -3,7 +3,7 @@ friends = ["Kevin", "Jim", "Oscar"]
 
 # loop in string
 for letter in "Some string":
-    # print(letter)
+    print(letter)
 
 # loop in list
 for friend in friends:
