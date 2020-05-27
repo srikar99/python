@@ -13,10 +13,13 @@ for friend in friends:
 for i in range(0, 10):
     print(i)
 
+
 def raise_to_power(base_number, power_number) -> int:
     result = 1
     for idx in range(power_number):
         result *= base_number
     return result
 
+
 print(raise_to_power(2, 2))
+
